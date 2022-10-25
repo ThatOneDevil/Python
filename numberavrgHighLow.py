@@ -1,6 +1,11 @@
 #08/10/21
 #Creating a while loop with scores then printing highest int
 
+array = []
+
+moreScores = True
+numScore = 0
+totalScore = 0
 while moreScores == True:
     score = int(input("Enter the next score, -1 to end: "))
     if score != -1: 
